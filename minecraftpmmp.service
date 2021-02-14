@@ -1,0 +1,14 @@
+[Unit]
+Description=Minecraft PocketMine-MP Server
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/PocketMine-MP/build/php/start.sh
+Restart=on-failure
+RestartSec=10
+KillMode=process
+WorkingDirectory=/home/pi/PocketMine-MP/build/php
+
+[Install]
+WantedBy=multi-user.target
