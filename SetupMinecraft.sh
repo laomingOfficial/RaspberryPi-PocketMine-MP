@@ -1,10 +1,12 @@
 sudo apt update
 sudo apt upgrade
 
+cd ~/RaspberryPi-PocketMine-MP
 sudo cp minecraftpmmp.service /etc/systemd/system/minecraftpmmp.service
 sudo chmod +x /etc/systemd/system/minecraftpmmp.service
 sudo systemctl daemon-reload
 
+cd ~/
 sudo apt install -y git cmake pkg-config autoconf automake m4 bison libtool libtool-bin g++ re2c
 git clone --recursive https://github.com/pmmp/PocketMine-MP.git
 cd PocketMine-MP/build/php/

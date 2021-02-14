@@ -1,4 +1,4 @@
-# rpi-PocketMine-MP
+# RaspberryPi-PocketMine-MP
  樹莓派4 PocketMine 我的世界基岩版 服務器
 
 这个Minecraft 基岩版服务器是采用PocketMine PHP服務端。由於PocketMine官方只有x86的版本，而樹莓派ARM版本就需要自行編譯了。
@@ -10,9 +10,9 @@
 影片教程: 請等待更新
 
 安装步骤指令(Command):  
-1) git clone https://github.com/laomingOfficial/rpi-PocketMine-MP
-2) chmod +x SetupMinecraft.sh
-3) ./SetupMinecraft.sh
+1) git clone https://github.com/laomingOfficial/RaspberryPi-PocketMine-MP
+2) chmod +x RaspberryPi-PocketMine-MP/SetupMinecraft.sh
+3) ./RaspberryPi-PocketMine-MP/SetupMinecraft.sh
 
 Service服务指令:  
 ```
