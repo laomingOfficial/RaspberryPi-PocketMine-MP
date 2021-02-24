@@ -7,7 +7,7 @@
 - 樹莓派4
 - 64bit 系統 (目前我使用[Raspbian OS 64bit Beta版本](https://downloads.raspberrypi.org/raspios_arm64/images/))
 
-影片教程: 請等待更新
+影片教程: [點這裡](https://youtu.be/n6Qk0i7B5So)
 
 安装步骤指令(Command):  
 1) git clone https://github.com/laomingOfficial/RaspberryPi-PocketMine-MP
